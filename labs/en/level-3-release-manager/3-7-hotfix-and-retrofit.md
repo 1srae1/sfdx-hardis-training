@@ -31,7 +31,7 @@ depends_on:
 
 **Level**: 3 Release Manager
 
-**Time**: ~30 min<!-- observed --> (observed: median 31 min, 9 learners, fastest 16 min)<!-- /observed -->
+**Time**: ~35 min<!-- observed --> (observed: median 35 min, 15 learners, fastest 16 min)<!-- /observed -->
 
 **You will**: take one broken formula from production to a fix that is live, then bring that fix
 back down into the pipeline so nothing undoes it.
@@ -279,6 +279,10 @@ comes back on a day nobody is expecting it.
 | Type of branch | **Retrofit**                                                    |
 | Name           | `US-045-retrofit`, the story whose hotfix you are bringing back |
 | Org to work in | `helios-dev`: nothing is built here, so the org hardly matters  |
+
+For the org, pick **Scratch org**, then **Reuse scratch org helios-dev**, as in
+[Lab 1.3](../level-1-contributor-basics/1-3-start-a-user-story-on-a-git-branch.md). Not **Current org**: since
+[Lab 3.1](3-1-configure-the-pipeline-up-to-production.md) your default org is `helios-prod`, production.
 
 #### Why
 
